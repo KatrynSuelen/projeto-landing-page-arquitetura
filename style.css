@@ -1,0 +1,143 @@
+*{  margin: 0px;
+    font-family: 'Inter', sans-serif;}
+
+    #inicio{
+        background-color: #303030;
+        color: #FFFFFF;
+    
+    }
+
+        .titulo{
+            padding-top: 206px;
+            margin-left: 62px;
+            padding-bottom: 20px;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 60px;
+            line-height: 72px;
+        }
+
+        .texto{
+            font-family: 'Inter', sans-serif;
+            padding-left: 13px;
+            margin-left: 62px;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 28px;
+            height: 28px;
+            width: 1024px;
+            font-feature-settings: 'liga' off;
+            padding-bottom: 149px;
+        }
+
+    #menuinformacoes{
+        background-color: #F9F9F9;
+        display: grid;
+        grid-auto-flow: column;
+        columns: auto;
+        padding-top: 50px;
+        padding-left: 150px;
+        padding-bottom: 40px;
+        }
+
+        .informacoes-titulo{
+        font-size: 30px;
+        font-weight: 600;
+        }
+
+        .informacoes-texto{
+        font-size: 15px;
+        font-weight: 400;
+        }
+
+
+    #menuhistoria {
+     background-color: #F5F5F5;
+     display: flex;
+     padding-left: 60px;
+     text-align: justify;
+        }
+
+     .titulo-historia{
+        color: #000;
+        display: flex;
+        
+        font-size: 40px;
+        font-weight: 500;
+        line-height: 20px;
+        margin-top: 0px;
+        }
+
+        .texto-historia{
+        
+        margin-top: 100px;
+        margin-left: 100px;
+        text-align: center;
+        
+        color: #000;
+        font-family: Inter;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 30px;
+       }
+
+        #foto{
+        margin-left: 125px;
+        margin-bottom: 20px;
+        width: 455px;
+        padding-bottom: 0px;
+        margin-right: 0;
+        margin-top: 50px;
+        }
+
+    #formulario{
+        background-color: #303030;
+        text-align: center;
+        color: #FFFFFF;
+             }
+
+        #tituloformulario{
+            padding-top: 90px;
+            font-size: 32px;
+            font-weight: 700;
+            line-height: 48px;
+            letter-spacing: 0em;
+        }
+
+        input{
+            margin-top: 53px;
+            padding-left: 15px;
+            width: 500px;
+            height: 60px;
+            border-radius: 10px;
+            font-family: 'Raleway', sans-serif;
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 30px;
+            text-align: left;
+
+        }
+
+        button{
+            background-color: #C07212;
+            color: #FFFFFF;
+            height: 74px;
+            width: 286px;
+            border-radius: 10px;
+            font-family: 'Raleway', sans-serif;
+            font-size: 25px;
+            font-weight: 700;
+            line-height: 30px;
+            margin: 75px 0px 75px;
+        }
+
+        button:hover{
+            color: #e4e2e2;
+            background-color: #db8214;
+            transform: translateY(-7px);
+            box-shadow: 0px 15px 20px #1b1105;
+            transition-delay: 0.1s;
+            transition-duration: 0.3s;
+        }
